@@ -1,9 +1,9 @@
 <?php
     require('1.php');
     require('2.php');
-    //导入类并命名
-    use Microsoft\windows\windowsXP\Computer as windows;
-    use Apple\mac\Macintosh\Computer as mac;
+    //导入函数并命名
+    use function Microsoft\windows\showSys as showWindows;
+    use function Apple\mac\showSys as showMac;
     
-    new windows();
-    new mac();
+    showWindows();
+    showMac();
