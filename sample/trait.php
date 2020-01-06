@@ -18,7 +18,7 @@
     }
     
     //定义一个类 
-    Class classSample{
+    class classSample{
         
         public $sex='male ';
         

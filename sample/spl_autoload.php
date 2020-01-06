@@ -1,6 +1,6 @@
 <?php
     //定义加载器类
-    Class AutoLoader{
+    class AutoLoader{
         //注册加载方法
         public function load($className){
             require_once($className.'.php');

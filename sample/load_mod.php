@@ -1,6 +1,6 @@
 <?php
     //定义加载器类
-    Class AutoLoader{
+    class AutoLoader{
         //注册加载方法
         public function load($className){
             //将命名空间的\替换成/ 映射为真实的类文件路径

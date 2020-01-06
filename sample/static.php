@@ -1,5 +1,5 @@
 <?php
-    Class Computer{
+    class Computer{
         public static $memory='Samsung';
         public static $harddrive='Kingston';
         
@@ -9,7 +9,7 @@
     }
     
     //继承Computer类
-    Class Windows extends Computer{
+    class Windows extends Computer{
         public function showMemory(){
             //调用父类静态方法
             return parent::showDevice();

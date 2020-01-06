@@ -1,5 +1,5 @@
 <?php
-    Class A{
+    class A{
         public $age=0;
        
         public $obj=null;
